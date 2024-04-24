@@ -1,0 +1,64 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+/* .incrementbtn{
+  background-color:green;
+  color: white;
+} */
+/* .body{
+  background-color: black;
+}
+.h1{
+  color:white;
+}
+.decrementbtn{
+  background-color:green;
+  color: white;
+
+}
+.count{
+  color: white
+} */
+
+.body {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+width: 100%;
+height: 90dvh;
+padding-top: 20px;
+}
+.container{
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid;
+  width: 300px;
+  background-color: antiquewhite;
+  border-radius: 5px;
+}
+button{
+  background-color: burlywood;
+  padding: 10px;
+margin: 10px;
+border-radius: 5px;
+}
+#count{
+  font-size: larger;
+}
+/* src/styles.css */
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
